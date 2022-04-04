@@ -13,7 +13,7 @@ function desenhar(){
         ['Outros', 6, '#00BFFF', '10,5%']
     ]);
     var opcoes = {
-        width: 1000,
+        width: 750,
         height: 750,
         legend: {
             position: 'none'
