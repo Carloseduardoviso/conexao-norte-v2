@@ -26,7 +26,7 @@ function desenhar(){
         hAxis: {
             title: 'Votos'
         },
-        is3D: false
+        is3D: true
 
     }
 
