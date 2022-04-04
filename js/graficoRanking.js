@@ -27,7 +27,7 @@ function desenhar(){
             width: '100%',
             height: '100%'
         },
-        is3D: false
+        is3D: true
     }
     var chart = new google.visualization.PieChart(document.getElementById('provedoras-internet'));
     chart.draw(dados, opcoes);
