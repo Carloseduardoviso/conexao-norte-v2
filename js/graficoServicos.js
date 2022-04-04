@@ -10,12 +10,7 @@ function desenhar(){
         ['Trabalhar', 19, '#00BFFF', '39,6%'],
         ['Escutar músicas', 28, '#00BFFF', '58,3%'],
         ['Fazer Downloads diversos', 30, '#00BFFF', '62,5%'],
-        ['Todas as respostas acima', 1, '#00BFFF', '2,1%'],
-        ['Redes sociais e notícias', 1, '#00BFFF', '2,1%'],
-        ['Tudo!', 1, '#00BFFF', '2,1%'],
-        ['Video aula no YouTube', 1, '#00BFFF', '2,1%'],
-        ['Uso em geral mesmo', 1, '#00BFFF', '2,1%'],
-        ['FF', 1, '#00BFFF', '2,1%']
+        ['Outros', 6, '#00BFFF', '10,5%']
     ]);
     var opcoes = {
         width: 750,
