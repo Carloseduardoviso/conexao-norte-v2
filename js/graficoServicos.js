@@ -20,8 +20,7 @@ function desenhar(){
         },
         hAxis: {
             title: 'Votos'
-        },
-
+        }
     }
 
     var chart = new google.visualization.BarChart(document.getElementById('grafico-servicos'));
