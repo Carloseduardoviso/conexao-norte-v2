@@ -6,12 +6,12 @@ function desenhar(){
     dados.addColumn('string', 'Operadoras');
     dados.addColumn('number', 'Totais');
     dados.addRows([
-        ['Vivo', 4.2],
-        ['Oi', 64.6],
+        ['Vivo', 2],
+        ['Oi', 31],
         ['Tim', 0],
-        ['Claro(Net)', 12.5],
-        ['Brasil Digital', 12.5],
-        ['OLLÁ Telecom', 2.1],
+        ['Claro(Net)', 6],
+        ['Brasil Digital', 6],
+        ['OLLÁ Telecom', 1],
         ['LinkNet', 0],
         ['Wianet', 0],
         ['FG Telecom', 0],
