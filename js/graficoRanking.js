@@ -7,7 +7,7 @@ function desenhar(){
     dados.addColumn('number', 'Totais');
     dados.addRows([
         ['Vivo', 2],
-        ['Oi', 31],
+        ['Oi', 32],
         ['Tim', 0],
         ['Claro(Net)', 6],
         ['Brasil Digital', 6],
@@ -15,7 +15,7 @@ function desenhar(){
         ['LinkNet', 0],
         ['Wianet', 0],
         ['FG Telecom', 0],
-        ['GloboFiber', 0],
+        ['GloboFiber', 2],
         ['Outra', 0],
     ]);
 
