@@ -1,16 +1,21 @@
-#oi{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: 80px 200px;
-    gap: 10px;
-    background-color: #2196F3;
-    border: 10px;
-    padding: 10px;
-  }
+.oi{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+}
   
-#oi > div {
-    background-color: rgba(255, 255, 255, 0.8);
-    text-align: center;
-    padding: 20px 10px 60px;
-    font-size: 90px;
-  }
+.oi div {
+
+}
+
+.oi img {
+  max-width: 100%;
+  max-height: 615px;
+  min-width: 300px;
+  min-height: 300px;
+  width: auto;
+  height: auto;
+}
