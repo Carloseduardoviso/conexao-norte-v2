@@ -11,9 +11,12 @@
 
 }
 
+/* Imagens */
 .oi img {
   max-width: 500px;
   max-height: 615px;
+  min-width: 300px;
+  min-height: 300px;
   width: auto;
   height: auto;
 }
