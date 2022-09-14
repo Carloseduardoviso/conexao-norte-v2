@@ -1,31 +1,33 @@
-const controls = document.querySelectorAll(".control");
-let currentItem = 0;
-const itemsCarrosel = document.querySelectorAll(".item-carrosel");
-const maxItems = itemsCarrosel.length;
+const slides = document.querySelectorAll(".item-carrosel")
+const nextButton = document.querySelector(".arrow-right")
+const prevButton = document.querySelector(".arrow-left")
 
-controls.forEach((control) => {
-  control.addEventListener("click", () => {
-    const isLeft = control.classList.contains("arrow-left");
+let currentSlideImage = 0
 
-    if (isLeft) {
-      currentItem -= 1;
-    } else {
-      currentItem += 1;
-    }
+function trocaCurrentItem(currentSlideImage) {
+  slides.forEach(slide => {
+    slide.classList.remove("current-item");
+  })
 
-    if (currentItem >= maxItems) {
-      currentItem = 0;
-    }
+  slides[currentSlideImage].classList.add("current-item")
+}
 
-    if (currentItem < 0) {
-      currentItem = maxItems - 1;
-    }
+nextButton.addEventListener("click", () => {
+  if (currentSlideImage === slides.length - 1) {
+    currentSlideImage = 0
+  } else {
+    currentSlideImage++
+  } 
 
-    itemsCarrosel.forEach((item) => item.classList.remove("current-item"));
-    itemsCarrosel[currentItem].scrollIntoView({
-      inline: "center",
-      behavior: "smooth",
-    });
-    itemsCarrosel[currentItem].classList.add("current-item");
-  });
-});
+  trocaCurrentItem(currentSlideImage)
+})
+
+prevButton.addEventListener("click", () => {
+  if (currentSlideImage === 0) {
+    currentSlideImage = slides.length - 1
+  } else {
+    currentSlideImage--
+  }
+
+  trocaCurrentItem(currentSlideImage)
+})
