@@ -8,6 +8,7 @@
         <title>Conexão Norte</title>
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/reset.css"> <!--Resetar todos os estilos padrões dos navegadores-->
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
         <link href="css/styles.css" rel="stylesheet" />
@@ -17,6 +18,7 @@
         <link href="css/slied.css" rel="stylesheet"/>
         <link href="css/planos.css" rel="stylesheet">
         <link href="css/carrosel.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/operadoras.css">
         <script src="js/loader.js"></script>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
@@ -26,9 +28,9 @@
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
 
-        <link rel="stylesheet" href="css/operadoras.css">
-        
-
+        <!--Import Slick Slider para o carrossel-->
+        <link rel="stylesheet" href="assets/slider/slick/slick.css">
+        <link rel="stylesheet" href="assets/slider/slick/slick-theme.css">
     </head>
 
 
@@ -75,85 +77,115 @@
                 </div>
               </div>
 
-            <section class="gridContainer">
-              <div class="mainContent">
-                <div class="categoryCard">
-                  <img src="./assets/img/operadoras/brasil-digital.png" alt="mainCardImg" class="mainCardImg">
-                  <p class="mainCategoryCardTitle">BOXE</p>
-                  <p class="mainCategoryCardDescription">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus
-                    reprehenderit hic blanditiis quam voluptates dolorum, adipisci dignissimos id ea temporibus.</p>
+              <!--Carrossel/Operadoras-->
+                <div class="operadoras-block">
+                    <div class="carrossel slick-slider">
+                        <div class="operadora slick-list">
+                            <img src="assets/img/operadoras/brasil-digital.png" alt="brasil telecom">
+                            <h3>Brasil Digital</h3>
+                            <span>200 MB</span>
+                            <span><b>A partir de</b>:</span>
+                            <span class="preco">R$100,00</span>
+                            <button class="operadora-button"><a href="">Veja Mais</a></button>
+                            <button class="operadora-button contato"><a href="">Entrar em contato</a></button>
+                        </div>
+                        <div class="operadora slick-list">
+                            <img src="assets/img/operadoras/fg-telecom.png" alt="FG telecom">
+                            <h3>FG telecom</h3>
+                            <span>200 MB</span>
+                            <span><b>A partir de</b>:</span>
+                            <span class="preco">R$100,00</span>
+                            <button class="operadora-button"><a href="">Veja Mais</a></button>
+                            <button class="operadora-button contato"><a href="">Entrar em contato</a></button>
+                        </div>
+                        <div class="operadora slick-list">
+                            <img src="assets/img/operadoras/globo-fiber.png" alt="Globo fiber">
+                            <h3>Globo fiber</h3>
+                            <span>200 MB</span>
+                            <span><b>A partir de</b>:</span>
+                            <span class="preco">R$100,00</span>
+                            <button class="operadora-button"><a href="">Veja Mais</a></button>
+                            <button class="operadora-button contato"><a href="">Entrar em contato</a></button>
+                        </div>
+                        <div class="operadora slick-list">
+                            <img src="assets/img/operadoras/link-net-telecom.png" alt="Link Net Telecom">
+                            <h3>Link Net Telecom</h3>
+                            <span>200 MB</span>
+                            <span><b>A partir de</b>:</span>
+                            <span class="preco">R$100,00</span>
+                            <button class="operadora-button"><a href="">Veja Mais</a></button>
+                            <button class="operadora-button contato"><a href="">Entrar em contato</a></button>
+                        </div>
+                        <div class="operadora slick-list">
+                            <img src="assets/img/operadoras/net.png" alt="NET">
+                            <h3>NET</h3>
+                            <span>200 MB</span>
+                            <span><b>A partir de</b>:</span>
+                            <span class="preco">R$100,00</span>
+                            <button class="operadora-button"><a href="">Veja Mais</a></button>
+                            <button class="operadora-button contato"><a href="">Entrar em contato</a></button>
+                        </div>
+                        <div class="operadora slick-list">
+                            <img src="assets/img/operadoras/oi-fibra.png" alt="Oi fibra">
+                            <h3>Oi fibra</h3>
+                            <span>200 MB</span>
+                            <span><b>A partir de</b>:</span>
+                            <span class="preco">R$100,00</span>
+                            <button class="operadora-button"><a href="">Veja Mais</a></button>
+                            <button class="operadora-button contato"><a href="">Entrar em contato</a></button>
+                        </div>
+                        <div class="operadora slick-list">
+                            <img src="assets/img/operadoras/olla-telecom.png" alt="Olla Telecom">
+                            <h3>Olla Telecom</h3>
+                            <span>200 MB</span>
+                            <span><b>A partir de</b>:</span>
+                            <span class="preco">R$100,00</span>
+                            <button class="operadora-button"><a href="">Veja Mais</a></button>
+                            <button class="operadora-button contato"><a href="">Entrar em contato</a></button>
+                        </div>
+                        <div class="operadora slick-list">
+                            <img src="assets/img/operadoras/tim.png" alt="Tim">
+                            <h3>Tim</h3>
+                            <span>200 MB</span>
+                            <span><b>A partir de</b>:</span>
+                            <span class="preco">R$100,00</span>
+                            <button class="operadora-button"><a href="">Veja Mais</a></button>
+                            <button class="operadora-button contato"><a href="">Entrar em contato</a></button>
+                        </div>
+                        <div class="operadora slick-list">
+                            <img src="assets/img/operadoras/wiane.png" alt="wiane">
+                            <h3>Wiane</h3>
+                            <span>200 MB</span>
+                            <span><b>A partir de</b>:</span>
+                            <span class="preco">R$100,00</span>
+                            <button class="operadora-button"><a href="">Veja Mais</a></button>
+                            <button class="operadora-button contato"><a href="">Entrar em contato</a></button>
+                        </div>
+                    </div>
                 </div>
-                <div class="categoryCard">
-                  <img src="./assets/img/operadoras/fg-telecom.png" alt="mainCardImg" class="mainCardImg">
-                  <p class="mainCategoryCardTitle">CROSSFIT</p>
-                  <p class="mainCategoryCardDescription">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus
-                    reprehenderit hic blanditiis quam voluptates dolorum, adipisci dignissimos id ea temporibus.</p>
-                </div>
-                <div class="categoryCard">
-                  <img src="./assets/img/operadoras/globo-fiber.png" alt="mainCardImg" class="mainCardImg">
-                  <p class="mainCategoryCardTitle">NATAÇÃO</p>
-                  <p class="mainCategoryCardDescription">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus
-                    reprehenderit hic blanditiis quam voluptates dolorum, adipisci dignissimos id ea temporibus.</p>
-                </div>
-                <div class="categoryCard">
-                  <img src="./assets/img/operadoras/link-net-telecom.png" alt="mainCardImg" class="mainCardImg">
-                  <p class="mainCategoryCardTitle">ROUPAS</p>
-                  <p class="mainCategoryCardDescription">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus
-                    reprehenderit hic blanditiis quam voluptates dolorum, adipisci dignissimos id ea temporibus.</p>
-                </div>
-                <div class="categoryCard">
-                  <img src="./assets/img/operadoras/net.png" alt="mainCardImg" class="mainCardImg">
-                  <p class="mainCategoryCardTitle">BASQUETE</p>
-                  <p class="mainCategoryCardDescription">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus
-                    reprehenderit hic blanditiis quam voluptates dolorum, adipisci dignissimos id ea temporibus.</p>
-                </div>
-                <div class="categoryCard">
-                  <img src="./assets/img/operadoras/oi-fibra.png" alt="mainCardImg" class="mainCardImg">
-                  <p class="mainCategoryCardTitle">CORRIDA</p>
-                  <p class="mainCategoryCardDescription">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus
-                    reprehenderit hic blanditiis quam voluptates dolorum, adipisci dignissimos id ea temporibus.</p>
-                </div>
-                <div class="categoryCard">
-                  <img src="./assets/img/operadoras/olla-telecom.png" alt="mainCardImg" class="mainCardImg">
-                  <p class="mainCategoryCardTitle">SURF</p>
-                  <p class="mainCategoryCardDescription">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus
-                    reprehenderit hic blanditiis quam voluptates dolorum, adipisci dignissimos id ea temporibus.</p>
-                </div>
-                <div class="categoryCard">
-                  <img src="./assets/img/operadoras/tim.png" alt="mainCardImg" class="mainCardImg">
-                  <p class="mainCategoryCardTitle">TRILHA</p>
-                  <p class="mainCategoryCardDescription">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus
-                    reprehenderit hic blanditiis quam voluptates dolorum, adipisci dignissimos id ea temporibus.</p>
-                </div>
-                <div class="categoryCard">
-                  <img src="./assets/img/operadoras/vivo.png" alt="mainCardImg" class="mainCardImg">
-                  <p class="mainCategoryCardTitle">TÊNIS</p>
-                  <p class="mainCategoryCardDescription">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus
-                    reprehenderit hic blanditiis quam voluptates dolorum, adipisci dignissimos id ea temporibus.</p>
-                </div>
-                <div class="categoryCard">
-                    <img src="./assets/img/operadoras/wiane.png" alt="mainCardImg" class="mainCardImg">
-                    <p class="mainCategoryCardTitle">TÊNIS</p>
-                    <p class="mainCategoryCardDescription">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus
-                      reprehenderit hic blanditiis quam voluptates dolorum, adipisci dignissimos id ea temporibus.</p>
+          <section class="oferta-block">
+            <div class="container">
+                <div class="col-lg-12">
+                  <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Ofertas</h2 >
                   </div>
-              </div>
-              <div class="sidebarContent">
-                <p>OFERTA</p>
-                <div class="sidebarCard">
-                  <img src="./assets/img/planos/plano1.jpeg" alt="sidebarCardImg" class="sidebarCardImg">
-                  <p class="sidebarCardTitle">Plano Básico</p>
                 </div>
-                <div class="sidebarCard">
-                  <img src="./assets/img/planos/plano2.jpeg" alt="sidebarCardImg" class="sidebarCardImg">
-                  <p class="sidebarCardTitle">Plano Intermediário</p>
-                </div>
-                <div class="sidebarCard">
-                  <img src="./assets/img/planos/plano3.jpeg" alt="sidebarCardImg" class="sidebarCardImg">
-                  <p class="sidebarCardTitle">Plano Avançado</p>
-                </div> 
             </div>
-        </section>
+            <div class="sidebarContent">
+              <div class="sidebarCard">
+                <img src="./assets/img/planos/plano1.jpeg" alt="sidebarCardImg" class="sidebarCardImg">
+                <p class="sidebarCardTitle">Plano Básico</p>
+              </div>
+              <div class="sidebarCard">
+                <img src="./assets/img/planos/plano2.jpeg" alt="sidebarCardImg" class="sidebarCardImg">
+                <p class="sidebarCardTitle">Plano Intermediário</p>
+              </div>
+              <div class="sidebarCard">
+                <img src="./assets/img/planos/plano3.jpeg" alt="sidebarCardImg" class="sidebarCardImg">
+                <p class="sidebarCardTitle">Plano Avançado</p>
+              </div> 
+            </div>
+          </section>
     </section>
         
         <section class="page-section" id="contact">
@@ -311,6 +343,8 @@
   <script src="js/video.js"></script>
   <script src="js/slick-slider.js"></script>
   <script src="js/custom.js"></script>
+  <script src="assets/slider/slick/slick.js"></script>
+  <script src="assets/slider/slick/slick.min.js"></script>
   <script>
     //according to loftblog tut
     $('.nav li:first').addClass('active');
