@@ -169,6 +169,10 @@ span > b {
   .footerAnchor {
     font-size: 19px;
   }
+
+  .carrossel {
+    margin-bottom: 3em;
+  }
 }
 @media (max-width: 463px) {
   .header {
@@ -177,4 +181,17 @@ span > b {
   .footer {
     justify-content: center;
   }
+
+  .sidebarContent {
+    display: block;
+  }
+
+  .sidebarCard {
+    margin: auto;
+  }
+
+  .carrossel {
+    margin-bottom: 3em;
+  }
+  
 }
